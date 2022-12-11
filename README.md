@@ -1,55 +1,17 @@
 # igen - A code generator for iOS app
-
-## Installation:
-### Install using pip:
-Open Terminal and run:
-
-```
-$ pip3 install igen
-```
-
-### Update:
-
-```
-$ pip3 install -U igen
-```
-
-or
-
-```
-$ pip3 uninstall igen
-$ pip3 install igen --no-cache-dir
-```
-
-### Uninstall:
-
-```
-$ pip3 uninstall igen
-```
-
-## How to install pip3:
-pip3 is already installed if you are using Python 3 (>=3.4)
-
-In order to install Python 3, you need to install Homebrew, run the following command in Terminal:
-
-```
-$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-```
-
-Then install Python 3:
-
-```
-$ brew install python
-```
-
 ## 1. Create Template:
 ### 1.1. Base Template:
 The Base Template contains necessary files for a screen using the [Clean Architecture](https://github.com/tuan188/MGCleanArchitecture) pattern.
 
 Open Terminal, navigate to the folder you want to save the files and run:
 
+RxSwift:
 ```
 $ igen template base <Scene_Name> [--window]
+```
+Combine:
+```
+$ igen template base2 <Scene_Name> [--window]
 ```
 
 #### Options:
